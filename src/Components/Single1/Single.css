@@ -1,0 +1,129 @@
+.single {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.single__left {
+  padding: 20px;
+  border: 1.5px solid #999;
+  border-radius: 20px;
+  height: 600px;
+}
+
+.single__left--head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.single__left--list {
+  margin-top: 30px;
+}
+
+.single__left--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.single__left--img {
+  margin-right: 20px;
+}
+
+.single__left--title {
+  width: 265px;
+}
+
+.single__left--content {
+  margin-top: 50px;
+}
+
+.single .left__content--images {
+  margin-top: 40px;
+}
+
+.single .left__content--img {
+  margin-right: 20px;
+}
+
+.single__right {
+  margin-left: 100px;
+}
+
+.single__right--head {
+  width: 635px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #000000;
+}
+
+.single__right--text {
+  width: 635px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #717171;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.single__right--time {
+  margin-top: 15px;
+  display: block;
+}
+
+.single__right--img {
+  margin-top: 50px;
+}
+
+.single__right--text2 {
+  width: 741px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #000000;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.single__right--title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.single__right--hr {
+  width: 140px;
+  height: 2px;
+  background-color: #000000;
+}
+
+.single__right--div {
+  width: 701px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 38px;
+  color: #000000;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: #e6e6e6;
+  border: none;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=Single.css.map */

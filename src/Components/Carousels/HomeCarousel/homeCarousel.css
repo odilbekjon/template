@@ -1,0 +1,127 @@
+@charset "UTF-8";
+.home-carousel {
+  height: 600px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 20px;
+  position: relative;
+}
+
+.home-carousel .carousel-block {
+  height: 90%;
+}
+
+.home-carousel .carousel-block .slick-slider {
+  height: 100%;
+  position: relative;
+}
+
+.home-carousel .carousel-block .slick-list,
+.home-carousel .carousel-block .slick-slide {
+  height: 100% !important;
+}
+
+.home-carousel .carousel-block .slick-list div,
+.home-carousel .carousel-block .slick-slide div {
+  height: 100% !important;
+}
+
+.home-carousel .carousel-block .slick-dots {
+  bottom: 130px;
+}
+
+.home-carousel .carousel-block .slick-dots li button:before {
+  font-size: 12px;
+  color: #fff;
+}
+
+.home-carousel .carousel-block .slick-arrow {
+  background: transparent;
+  border: 2px solid #fff;
+  height: 48px !important;
+  width: 48px !important;
+  border-radius: 50%;
+  z-index: 3;
+  top: 46%;
+}
+
+.home-carousel .carousel-block .slick-arrow::before {
+  font-size: 30px;
+  color: #fff;
+}
+
+.home-carousel .carousel-block .slick-prev {
+  left: 475px;
+}
+
+.home-carousel .carousel-block .slick-prev::before {
+  content: '🠔';
+}
+
+.home-carousel .carousel-block .slick-next {
+  right: 475px;
+}
+
+.home-carousel .carousel-block .slick-next::before {
+  content: '🠖';
+}
+
+.home-carousel .carousel-block .carousel-item {
+  height: 100% !important;
+  overflow: hidden;
+  position: relative;
+}
+
+.home-carousel .carousel-block .carousel-item .carousel-item-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: 3;
+}
+
+.home-carousel .carousel-block .carousel-item .carousel-item-content {
+  z-index: 5;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-carousel .carousel-block .carousel-item .carousel-item-content h4 {
+  margin-top: 80px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.home-carousel .carousel-block .carousel-item .carousel-item-content h2 {
+  font-weight: 800;
+  font-size: 68px;
+  line-height: 80px;
+  margin-bottom: 30px;
+}
+
+.home-carousel .carousel-block .carousel-item .carousel-item-content h3 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+}
+/*# sourceMappingURL=homeCarousel.css.map */

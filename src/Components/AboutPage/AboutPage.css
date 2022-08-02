@@ -1,0 +1,218 @@
+.about {
+  margin-top: 130px;
+}
+
+.about__head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #141414;
+}
+
+.about__head::before {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  background-color: #141414;
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.about__box {
+  margin-top: 90px;
+  padding: 40px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  border: none;
+  background-color: #D7E8E5;
+  position: relative;
+}
+
+.about__box::after {
+  content: "";
+  display: block;
+  width: 400px;
+  height: 400px;
+  background-image: url("../../Assets//images/1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -140px;
+  left: 1070px;
+  z-index: 0;
+}
+
+.about__box--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -50px;
+  margin-bottom: 60px;
+}
+
+.about__box--item {
+  margin-right: 16px;
+}
+
+.about__box--item:last-child {
+  margin-right: 0;
+}
+
+.about__box--link {
+  padding: 18px 45px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 34px;
+  color: #FFFFFF;
+  border: 2px solid #000;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+  color: #285D53;
+  border: none;
+  -webkit-box-shadow: 0 0 10px 1px #999;
+          box-shadow: 0 0 10px 1px #999;
+}
+
+.about__box--text {
+  width: 1231px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #141414;
+}
+
+.about__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  border: 1px solid #285D53;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.about__wrap--left {
+  margin-top: 30px;
+  margin-right: 75px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.about__wrap--right {
+  margin-top: 50px;
+}
+
+.about__right--head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: #141414;
+}
+
+.about__right--head::after {
+  content: "Loyiha rahbari";
+  display: block;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  color: #141414;
+  margin-top: 10px;
+}
+
+.about__right--text {
+  width: 697px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #141414;
+}
+
+.about__person--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.about__person--item {
+  margin-right: 50px;
+  padding: 10px;
+  border: 1px solid #285D53;
+  border-radius: 30px;
+  margin-top: 60px;
+}
+
+.about__person--item:nth-child(4) {
+  margin-right: 0;
+}
+
+.about__person--item:nth-child(8) {
+  margin-right: 0;
+}
+
+.about__person--head {
+  width: 244px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 34px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.about__person--title {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #141414;
+  opacity: 0.5;
+  margin-top: 5px;
+}
+
+.green {
+  background-color: green;
+  color: #FFFFFF;
+}
+
+.wrap__links {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap__link {
+  margin-right: 50px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #141414;
+}
+
+.wrap__link:last-child {
+  margin-right: 0;
+}
+/*# sourceMappingURL=AboutPage.css.map */

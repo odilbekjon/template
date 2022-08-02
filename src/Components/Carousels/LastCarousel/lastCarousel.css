@@ -1,0 +1,110 @@
+@charset "UTF-8";
+.last_carousel_block {
+  height: 70%;
+}
+
+.last_carousel_block .slick-slider {
+  height: 100%;
+  position: relative;
+}
+
+.last_carousel_block .slick-list,
+.last_carousel_block .slick-slide {
+  height: 100% !important;
+}
+
+.last_carousel_block .slick-list div,
+.last_carousel_block .slick-slide div {
+  height: 100% !important;
+}
+
+.last_carousel_block .slick-arrow {
+  border: 1px solid #285D53;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  z-index: 3;
+  opacity: 0.5;
+}
+
+.last_carousel_block .slick-arrow::before {
+  font-size: 30px;
+  color: #285D53;
+}
+
+.last_carousel_block .slick-prev.slick-disabled:before,
+.last_carousel_block .slick-next.slick-disabled:before {
+  opacity: 1;
+}
+
+.last_carousel_block .slick-prev::before {
+  content: '🠔';
+}
+
+.last_carousel_block .slick-next::before {
+  content: '🠖';
+}
+
+.last_carousel_block .carousel-item:nth-child(1) {
+  margin-left: 25px;
+}
+
+.last_carousel_block .carousel-item {
+  height: 100% !important;
+}
+
+.last_carousel_block .carousel-item .carousel-card {
+  width: 350px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin-left: 30px;
+}
+
+.last_carousel_block .carousel-item .carousel-card .carousel-card-img {
+  border: 1px solid red;
+  height: 50% !important;
+}
+
+.last_carousel_block .carousel-item .carousel-card .carousel-card-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.last_carousel_block .carousel-item .carousel-card h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: -0.02em;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.last_carousel_block .carousel-item .carousel-card p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(24, 23, 32, 0.5);
+  margin: 10px 0;
+}
+
+.last_carousel_block .carousel-item .carousel-card a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #285D53;
+}
+
+.last_carousel_block .carousel-item .carousel-card a svg {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=lastCarousel.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAA;EACd,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,KAAK;CACvB;;AAED,AAAA,oBAAoB,AAAA,QAAQ,CAAA;EACxB,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,GAAG;EACX,gBAAgB,EAAE,OAAO;EACzB,aAAa,EAAE,IAAI;EACnB,YAAY,EAAE,IAAI;EAClB,SAAS,EAAE,iBAAiB;CAC/B;;AAED,AAAA,iBAAiB,CAAA;EACb,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "ZiyoratCarousel.scss"
+    ],
+    "names": [],
+    "file": "ZiyoratCarousel.css"
+}

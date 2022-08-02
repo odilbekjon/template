@@ -1,0 +1,50 @@
+.carousel__section {
+  margin-top: 100px;
+  background: rgba(56, 138, 123, 0.2);
+  background-image: url("../../Assets/images/single1_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__wrapper {
+  margin-bottom: 100px;
+}
+
+.carousel__head {
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+.carousel__head::before {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 4px;
+  background-color: #141414;
+  border-radius: 10px;
+  margin-right: 30px;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.carousel__images {
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.left--img {
+  position: absolute;
+  top: 2160px;
+  right: 1200px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0;
+}
+
+.slick-dots li button:before {
+  opacity: 0;
+}
+/*# sourceMappingURL=SingleCarousel.css.map */
